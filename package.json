@@ -1,0 +1,20 @@
+{
+  "name": "NextJs_1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/TukaMu/NextJs_1.git",
+  "author": "TukaMu <machadofelipe46@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^13.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "export": "next build && next export",
+    "start": "next build && next start",
+    "lint": "next lint"
+  }
+}
