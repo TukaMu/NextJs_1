@@ -1,11 +1,12 @@
 import Link from "../components/Link";
+import Styler from "../theme/Styler";
 
 export default function Home() {
     return (
         <div>
-            <h1>
+            <Styler as={"h1"} style={'color: red;'}>
                 HOME
-            </h1>
+            </Styler>
             <Link href={"/faq"}>
                 FAQ
             </Link>
